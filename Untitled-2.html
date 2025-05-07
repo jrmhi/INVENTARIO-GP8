@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema GP8 - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h1>INVENTARIO</h1>
+            <ul class="nav-menu">
+                <li class="active"><a href="untitled-2.html">🏠 Panel</a></li>
+                <li><a href="untitled-4.html">📦 Productos</a></li>
+                <li><a href="categorias.html">🗂️ Categorías</a></li>
+                <li><a href="ordenes.html">📋 Órdenes</a></li>
+                <li><a href="reportes.html">📊 Reportes</a></li>
+                <li><a href="untitled-3.html">⚙️ Configuración</a></li>
+            </ul>
+        </nav>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="header-left">
+                    <h2>Panel Principal</h2>
+                </div>
+                <div class="header-right">
+                    <a href="perfil.html" class="profile-link">👤 Juan Pérez</a>
+                </div>
+            </header>
+
+            <!-- Contenido del panel -->
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>📦 Productos en Stock</h3>
+                    <div class="card-value">1,234</div>
+                </div>
+                <div class="card">
+                    <h3>📋 Órdenes Activas</h3>
+                    <div class="card-value">45</div>
+                </div>
+                <div class="card">
+                    <h3>⚠️ Stock Mínimo</h3>
+                    <div class="card-value">12</div>
+                </div>
+            </div>
+
+            <!-- Tabla resumen -->
+            <div class="table-container">
+                <h3>Últimos Movimientos</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Tipo</th>
+                            <th>Cantidad</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Camisa Polo</td>
+                            <td>Entrada</td>
+                            <td>100</td>
+                            <td>2023-08-15</td>
+                            <td><span class="status completed">Completado</span></td>
+                        </tr>
+                        <!-- Más filas... -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
