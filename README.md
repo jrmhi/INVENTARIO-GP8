@@ -1,4 +1,5 @@
 Caso 1: Sistema de Gestión de Inventarios para una Tienda de Ropa
+
 Descripción: Una tienda de ropa pequeña quiere implementar un sistema de gestión de inventarios para controlar su stock de manera 
 eficiente y reducir pérdidas por productos no vendidos o extraviados. El sistema debe permitir registrar entradas y salidas de 
 productos, generar alertas de stock bajo y proporcionar informes de ventas y stock en tiempo real.
